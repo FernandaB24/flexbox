@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Relatório - Atividade Flexbox</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        ul {
+            margin-left: 20px;
+        }
+        img {
+            width: 80%;
+            margin: 10px 0;
+            border: 2px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Relatório da Atividade - Flexbox</h1>
+
+    <h2>Nome completo</h2>
+    <p>Fernanda Barbosa Rodrigues</p>
+
+    <h2>Jogos Escolhidos</h2>
+    <ul>
+        <li>
+            <strong>Flexbox Zombies</strong><br>
+            <a href="https://mastery.games/flexboxzombies/" target="_blank">https://mastery.games/flexboxzombies/</a><br>
+            Escolhi esse jogo porque ele traz uma narrativa divertida com zumbis e ensina as propriedades do Flexbox em um estilo de combate, o que torna o aprendizado mais leve e dinâmico.
+        </li>
+        <li>
+            <strong>Flexbox Froggy</strong><br>
+            <a href="https://flexboxfroggy.com/" target="_blank">https://flexboxfroggy.com/</a><br>
+            Escolhi esse jogo porque é bem visual e interativo, ideal para fixar os conceitos de alinhamento com Flexbox de forma prática e direta.
+        </li>
+    </ul>
+
+    <h2>Registro de Níveis</h2>
+
+    <h3>Flexbox Zombies</h3>
+    <p><strong>Nível 1:</strong> Aprendi a usar <code>justify-content: center</code> para alinhar os zumbis no meio do container.</p>
+    <img src="print01.png" alt="Nível 1 - Zombies">
+
+    <p><strong>Nível 2:</strong> Neste nível, foi necessário usar <code>justify-content: space-between</code> para espaçar os zumbis igualmente entre si. Desafiador por exigir mais observação.</p>
+    <img src="print02.png" alt="Nível 2 - Zombies">
+
+    <p><strong>Nível 3:</strong> Usar <code>justify-content: space-around</code> foi interessante, pois o espaçamento também é aplicado nas laterais externas, o que muda visualmente o layout.</p>
+    <img src="print03.png" alt="Nível 3 - Zombies">
+
+    <h3>Flexbox Froggy</h3>
+    <p><strong>Nível 1:</strong> Primeiro desafio simples, bastava colocar o sapo na extremidade direita com <code>justify-content: flex-end</code>.</p>
+    <img src="print04.png" alt="Nível 1 - Froggy">
+
+    <p><strong>Nível 2:</strong> Nesse, alinhar dois sapos exigiu atenção à ordem e posição. Usei <code>justify-content: center</code>.</p>
+    <img src="print05.png" alt="Nível 2 - Froggy">
+
+    <p><strong>Nível 6:</strong> Foi desafiador por precisar usar <code>justify-content</code> junto com <code>align-items</code> para centralizar o sapo tanto horizontal quanto verticalmente.</p>
+    <img src="print06.png" alt="Nível 6 - Froggy">
+
+    <h2>Reflexão e Aplicação Prática</h2>
+
+    <ul>
+        <li><code>display: flex</code> — define que o container será flexível</li>
+        <li><code>justify-content</code> — alinha os itens no eixo horizontal (principal)</li>
+        <li><code>align-items</code> — alinha os itens no eixo vertical (secundário)</li>
+        <li><code>flex-start</code> — alinha ao início do container</li>
+        <li><code>flex-end</code> — alinha ao final do container</li>
+        <li><code>center</code> — centraliza os itens</li>
+        <li><code>space-between</code> — espaço igual entre os itens</li>
+        <li><code>space-around</code> — espaço igual em volta dos itens</li>
+    </ul>
+
+    <h3>Aplicação prática</h3>
+    <p>Se eu fosse criar um menu de navegação responsivo para um site, usaria o Flexbox para alinhar os itens do menu horizontalmente no topo da página. Com <code>justify-content: space-between</code>, poderia distribuir os links igualmente entre a esquerda e a direita. Se quisesse centralizar os itens em um card, usaria <code>justify-content: center</code> e <code>align-items: center</code> para deixá-los perfeitamente centralizados, ideal para layouts de produtos ou posts.</p>
+
+</body>
+</html>
